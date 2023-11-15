@@ -31,9 +31,9 @@ class Dog:
         return self._breed
 
     def set_breed(self, breed):
-        if breed not in APPROVED_BREEDS :
-            print(f"Breed must be in the list of approved breeds.")
-        else:
+        # if breed not in APPROVED_BREEDS :
+        #     print(f"Breed must be in the list of approved breeds.")
+        # else:
             self._breed = breed
 
 
